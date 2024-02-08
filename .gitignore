@@ -50,13 +50,29 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+# Ignore virtual environment
+venv/
+
+
+# Ignore IDE-specific files
+*.iml
+.idea/
+
+# Ignore XML files
+*.xml
+
+# Ignore compiled binaries
+*.pyc
+
+# Ignore log files
+*.log
+
 
 # Translations
 *.mo
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
